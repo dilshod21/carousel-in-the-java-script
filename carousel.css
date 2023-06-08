@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-image: url("./imgs/islamic.jpg");
+    background-attachment: fixed;
+}
+.dcontainer{
+    width: 600px;
+    height: auto;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 5px 5px 15px gray;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+.heading{
+    margin: 10px 0px;
+}
+
+.margin-top{
+    margin-top: 60px;
+}
+.margin-bottom{
+    margin-bottom: 10px;
+}
+
+.mrg{
+    margin: 10px 20px;
+}
+
+
+
+
+.my-button{
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: rgb(0, 211, 0);
+    border: none;
+    color: white;
+}
+.prev{
+    margin-right: 20px;
+}
+.next{
+    margin-left: 20px;
+}
+.slide-container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 5px solid rgb(0, 211, 0);
+    border-radius: 15px;
+}
+.slide-home{
+    display: flex;
+    flex-wrap: nowrap;
+    transition: 0.5s ease-in-out;
+}
+.slide-image{
+    width: 100%;
+    height: auto;
+}
+.indicators-parent{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.slider-indicator{
+    padding: 0px 7px;
+    border-radius: 5px;
+    background: none;
+    border: 1px solid red;
+    color: red;
+    margin: 0px 5px;
+    transition: 0.5s ease-in-out;
+}
+.slider-indicator.active{
+    color: white;
+    background-color: rgb(0, 211, 0);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
